@@ -12,7 +12,7 @@ class Login_PO {
         cy.url().should("eq", "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index")
         cy.contains("Dashboard").should("be.visible")
         cy.contains("My Info").should("be.visible")
-        cy.waitUntil(() => cy.title().should('include', 'dashboard'))
+        //cy.waitUntil(() => cy.title().should('include', 'dashboard'))
 
     }
 

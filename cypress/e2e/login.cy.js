@@ -14,14 +14,14 @@ cy.fixture('credentials').then((data)=>{
   it('successful login', () =>{
     expect(data.login.validdataset).to.exist
       login_PO.Login(data.login.validdataset.username, data.login.validdataset.password)
-      login_PO.validAssertion
+      login_PO.validAssertion()
       
 
     }) 
     it('unsuccessful login', () =>{
       expect(data.login.invaliddataset).to.exist
        login_PO.Login(data.login.invaliddataset.username, data.login.invaliddataset.password)
-       login_PO.invalidAssertion
+       login_PO.invalidAssertion()
        
 
     })
