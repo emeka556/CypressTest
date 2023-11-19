@@ -107,6 +107,26 @@ dist
 # Docusaurus cache and generated files
 .docusaurus
 
+# Ignore Cypress generated files
+/cypress/videos/
+/cypress/screenshots/
+/cypress/reports/
+/cypress/downloads/
+
+
+# Ignore npm dependencies
+/cypress.config.js
+/package-lock.json
+/package.json
+/node_modules/
+
+# Ignore any log files
+*.log
+
+# Ignore environment configuration files
+.env
+
+
 # Serverless directories
 .serverless/
 
