@@ -10,6 +10,7 @@
   "author": "Emeka Okonji",
   "license": "ISC",
   "devDependencies": {
+    "@cypress/xpath": "^2.0.3",
     "cypress": "^13.5.1",
     "cypress-multi-reporters": "^1.6.4",
     "cypress-wait-until": "^2.0.1",
