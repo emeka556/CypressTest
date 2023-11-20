@@ -1,7 +1,7 @@
 //import {data} from "cypress"
 import Login_PO from "../support/Pages/Login"
 
-describe('Login', () =>{
+describe('Login Feature', () =>{
   const login_PO = new Login_PO
   beforeEach(function(){ 
 cy.fixture('credentials').then((data)=>{
