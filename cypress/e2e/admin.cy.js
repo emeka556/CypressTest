@@ -17,6 +17,7 @@ describe('The Admin', () =>{
           login_PO.Login(data.login.validdataset.username, data.login.validdataset.password)
           admin.admin()
           admin.searchAdmin()
+          admin.AdminAssertion()
           
     
         }) 
