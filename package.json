@@ -13,6 +13,7 @@
     "@cypress/xpath": "^2.0.3",
     "cypress": "^13.5.1",
     "cypress-multi-reporters": "^1.6.4",
+    "cypress-upload-file": "^1.0.6",
     "cypress-wait-until": "^2.0.1",
     "cypress-xpath": "^2.0.1",
     "eslint-plugin-cypress": "^2.15.1",

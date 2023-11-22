@@ -25,3 +25,4 @@
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
 import 'cypress-wait-until';
 import 'cypress-xpath';
+import uploadFile from "cypress-upload-file";
