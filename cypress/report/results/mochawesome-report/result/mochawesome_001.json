@@ -1,0 +1,126 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 0,
+    "start": "2023-11-19T23:57:27.873Z",
+    "end": "2023-11-19T23:57:43.873Z",
+    "duration": 16000,
+    "testsRegistered": 2,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "89d652a9-82bc-42a2-9b2d-3df93253cb80",
+      "title": "",
+      "fullFile": "cypress\\e2e\\login.cy.js",
+      "file": "cypress\\e2e\\login.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "b502ebb5-ba1a-4ce3-ba42-86ba32943909",
+          "title": "Login",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "successful login",
+              "fullTitle": "Login successful login",
+              "timedOut": null,
+              "duration": 5854,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "expect(data.login.validdataset).to.exist;\nlogin_PO.Login(data.login.validdataset.username, data.login.validdataset.password);\nlogin_PO.validAssertion();",
+              "err": {},
+              "uuid": "4d5d06d8-1766-4741-a080-a818506f6943",
+              "parentUUID": "b502ebb5-ba1a-4ce3-ba42-86ba32943909",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "unsuccessful login",
+              "fullTitle": "Login unsuccessful login",
+              "timedOut": null,
+              "duration": 3122,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "expect(data.login.invaliddataset).to.exist;\nlogin_PO.Login(data.login.invaliddataset.username, data.login.invaliddataset.password);\nlogin_PO.invalidAssertion();",
+              "err": {},
+              "uuid": "e92f5a0e-bbb2-4b25-968b-f031ac1df0a9",
+              "parentUUID": "b502ebb5-ba1a-4ce3-ba42-86ba32943909",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "4d5d06d8-1766-4741-a080-a818506f6943",
+            "e92f5a0e-bbb2-4b25-968b-f031ac1df0a9"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 8976,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/report/results/mochawesome-report/result",
+        "quite": true,
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}
