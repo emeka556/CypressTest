@@ -19,6 +19,7 @@ it('successful login', () =>{
     login_PO.Login(data.login.validdataset.username, data.login.validdataset.password)
     pIM.clickPIM()
     pIM.addNewEmployee()
+    //cy.get('.employee-image')
 
     }) 
 })
