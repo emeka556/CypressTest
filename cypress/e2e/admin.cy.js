@@ -16,6 +16,7 @@ describe('The Admin', () =>{
     it.only('successful login', () =>{
           login_PO.Login(data.login.validdataset.username, data.login.validdataset.password)
           admin.admin()
+          admin.select()
           admin.searchAdmin()
           admin.AdminAssertion()
           

@@ -13,6 +13,14 @@ searchAdmin(){
 
 }
 
+select(){
+
+    const selectIcons = cy.xpath("//div[@class='oxd-select-text-input']")
+    selectIcons.first().click()
+    const container = cy.xpath("//div[contains(@class,'oxd-select-dropdown')]")
+    container.contains('Admin').click()
+}
+
 AdminAssertion() {
     cy.url().should("eq", "https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers")
     cy.contains("Dominic Chase").should("be.visible")
