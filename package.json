@@ -12,6 +12,7 @@
   "devDependencies": {
     "@cypress/xpath": "^2.0.3",
     "cypress": "^13.5.1",
+    "cypress-file-upload": "^5.0.8",
     "cypress-multi-reporters": "^1.6.4",
     "cypress-upload-file": "^1.0.6",
     "cypress-wait-until": "^2.0.1",
