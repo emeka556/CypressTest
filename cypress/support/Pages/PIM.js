@@ -18,8 +18,11 @@ class PIM{
                     }
                 
         uploadImg(){
+            cy.get('.oxd-file-div > .oxd-icon-button > .oxd-icon').click()
+            cy.wait(1000)
             const filepath = 'picture.jpeg' 
             cy.get("input[type='file']").attachFile(filepath,{subjectType: 'input'})
+            
             
 
         }
