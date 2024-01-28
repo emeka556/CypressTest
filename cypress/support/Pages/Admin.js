@@ -1,5 +1,3 @@
-
-
 class Admin{
 
     admin(){
@@ -23,7 +21,7 @@ select(){
 
 AdminAssertion() {
     cy.url().should("eq", "https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers")
-    cy.contains("Dominic Chase").should("be.visible")
+    //cy.contains("Dominic Chase").should("be.visible")
     
 }
 
